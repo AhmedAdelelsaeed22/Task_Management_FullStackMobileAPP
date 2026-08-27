@@ -1,0 +1,70 @@
+# ================================
+# .NET / Visual Studio
+# ================================
+
+# Build output - ALL projects/layers
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ================================
+# NuGet
+# ================================
+
+packages/
+*.nupkg
+*.snupkg
+
+# ================================
+# Logs / temporary files
+# ================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ================================
+# Test / Coverage
+# ================================
+
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ================================
+# Rider
+# ================================
+
+.idea/
+*.sln.iml
+
+# ================================
+# Windows
+# ================================
+
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Database files
+# ================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# Secrets / local configuration
+# ================================
+
+.env
+.env.*
+!.env.example
