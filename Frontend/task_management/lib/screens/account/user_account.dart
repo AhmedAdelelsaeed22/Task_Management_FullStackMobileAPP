@@ -162,7 +162,7 @@ class _UserAccountScreenState extends State<UserAccountScreen> {
               fullName: _user!.fullName,
               userName: _user!.userName,
               email: _user!.emailAddress,
-              password: _user!.password,
+              password: widget.password,
               jobTitle: _user!.jobTitle,
             ),
 

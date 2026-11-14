@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_management/screens/auth/login.dart';
+// import 'package:task_management/screens/auth/login.dart';
+import 'package:task_management/splash_screen.dart';
 
 void main() {
   runApp(
@@ -109,7 +110,7 @@ void main() {
         ),
       ),
 
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     ),
   );
 }
